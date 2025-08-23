@@ -7,7 +7,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 
-import { Search, MapPin, Building, Calendar, Briefcase } from "lucide-react";
+import { Search, MapPin, Building, Briefcase } from "lucide-react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { Job } from "@/types/job.types";
@@ -29,7 +29,7 @@ export default function Home() {
   useEffect(() => {
     fetchJobs();
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentPage, itemsPerPage]);
+  }, [currentPage, itemsPerPage, searchQuery, selectedJobType, selectedLocation]);
 
   const fetchJobs = async () => {
     try {
@@ -70,7 +70,6 @@ export default function Home() {
 
   const handleSearch = () => {
     setCurrentPage(1);
-    fetchJobs();
   };
 
   const clearFilters = () => {
@@ -78,7 +77,6 @@ export default function Home() {
     setSelectedJobType("");
     setSelectedLocation("");
     setCurrentPage(1);
-    fetchJobs();
   };
 
   const handlePageChange = (page: number) => {
@@ -204,9 +202,11 @@ export default function Home() {
                 <CardContent className="p-4 sm:p-6">
                   <div className="flex flex-col sm:flex-row justify-between items-start gap-4 mb-4">
                     <div className="flex-1 min-w-0">
-                      <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 break-words">
-                        {job.title}
-                      </h3>
+                      <Link href={`/job/${job.id}`}>
+                        <h3 className="text-lg sm:text-xl font-semibold text-foreground mb-2 break-words">
+                          {job.title}
+                        </h3>
+                      </Link>
                       <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm text-muted-foreground mb-3">
                         <div className="flex items-center gap-1">
                           <Building className="w-4 h-4 flex-shrink-0" />
@@ -215,10 +215,6 @@ export default function Home() {
                         <div className="flex items-center gap-1">
                           <MapPin className="w-4 h-4 flex-shrink-0" />
                           <span className="truncate">{job.location}</span>
-                        </div>
-                        <div className="flex items-center gap-1">
-                          <Calendar className="w-4 h-4 flex-shrink-0" />
-                          <span>{formatDate(job.created_at)}</span>
                         </div>
                       </div>
                     </div>
@@ -237,6 +233,11 @@ export default function Home() {
                     <div className="text-sm text-muted-foreground">
                       Posted {formatDate(job.created_at)}
                     </div>
+                    <Button asChild size="sm" variant="outline">
+                      <Link href={`/job/${job.id}`}>
+                        View Details
+                      </Link>
+                    </Button>
                   </div>
                 </CardContent>
               </Card>

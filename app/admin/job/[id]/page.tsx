@@ -1,6 +1,6 @@
 "use client";
 
-import { AddJobForm } from "@/components/job/add-job-form";
+import { JobForm } from "@/components/job/job-form";
 import { useRouter, useParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -40,7 +40,7 @@ export default function JobPage() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <AddJobForm
+        <JobForm
           mode="edit"
           jobId={id}
           onSuccess={handleSuccess}

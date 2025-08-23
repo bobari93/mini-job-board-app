@@ -34,7 +34,7 @@ const JOB_TYPE_OPTIONS = [
   "On-site"
 ];
 
-export function AddJobForm({ className, mode = 'create', jobId, onSuccess, onCancel }: AddJobFormProps) {
+export function JobForm({ className, mode = 'create', jobId, onSuccess, onCancel }: AddJobFormProps) {
   const { createJob, updateJob, getJob } = useJobs(false);
   const [title, setTitle] = useState("");
   const [companyName, setCompanyName] = useState("");

@@ -2,9 +2,12 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -24,6 +27,11 @@ export default function Page() {
                 confirm your account before signing in.
               </p>
             </CardContent>
+            <CardFooter>
+              <Button className="w-full" asChild>
+                <Link href="/login">Login Now</Link>
+              </Button>
+            </CardFooter>
           </Card>
         </div>
       </div>
