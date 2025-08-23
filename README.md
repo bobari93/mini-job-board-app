@@ -84,7 +84,7 @@ Authenticated users can create job posts with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/mini-job-board-app.git
+   git clone https://github.com/bobari93/mini-job-board-app.git
    cd mini-job-board-app
    ```
 
@@ -305,27 +305,14 @@ The application includes:
 4. **Advanced Filtering**: Salary range, experience level, etc.
 5. **Social Features**: Share jobs on social media
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ## 👨‍💻 Author
 
-Your Name - [GitHub](https://github.com/yourusername)
+Bobby Arianto - [GitHub](https://github.com/bobari93)
 
 ## 🔗 Links
 
-- **Live Demo**: [Deployed URL]
-- **GitHub Repository**: [Repository Link]
-- **Supabase Dashboard**: [Your Supabase Project]
+- **Live Demo**: https://mini-job-board-app-zeta.vercel.app/
+- **GitHub Repository**: https://github.com/bobari93/mini-job-board-app
 
 ---
 
