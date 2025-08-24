@@ -2,6 +2,10 @@
 
 A full-stack job board application built with Next.js, Supabase, and Tailwind CSS. Users can post, browse, and manage job listings with authentication and real-time updates.
 
+## Live Deployed URL
+- Navigate to [https://mini-job-board-app-zeta.vercel.app](https://mini-job-board-app-zeta.vercel.app)
+- Navigate to [https://mini-job-board-app-zeta.vercel.app/login](https://mini-job-board-app-zeta.vercel.app/login) for admin access
+
 ## 🌟 Features
 
 ### Core Features
@@ -156,6 +160,7 @@ Authenticated users can create job posts with:
 
 7. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
+   Navigate to [http://localhost:3000/login](http://localhost:3000/login) for admin access
 
 ## 📁 Project Structure
 
@@ -287,23 +292,18 @@ The application includes:
 ### Technical Enhancements
 1. **Testing**: Add comprehensive unit and integration tests
 2. **Performance**: Implement caching and CDN optimization
-3. **SEO**: Enhanced meta tags and structured data
-4. **Analytics**: User behavior tracking and job performance metrics
-5. **Real-time Features**: Live job updates and notifications
+3. **Analytics**: User behavior tracking and job performance metrics
+4. **Real-time Features**: Live job updates and notifications
 
 ### User Experience
 1. **Job Alerts**: Email notifications for new matching jobs
 2. **Saved Jobs**: Bookmark favorite job listings
-3. **Job Recommendations**: AI-powered job matching
-4. **Mobile App**: Native mobile application
-5. **Multi-language Support**: Internationalization
+3. **Multi-language Support**: Internationalization
 
 ### Advanced Features
-1. **Job Analytics**: Dashboard for job performance
-2. **Bulk Operations**: Import/export job data
-3. **API Integration**: Third-party job board integrations
-4. **Advanced Filtering**: Salary range, experience level, etc.
-5. **Social Features**: Share jobs on social media
+1. **API Integration**: Third-party job board integrations
+2. **Advanced Filtering**: Salary range, experience level, etc.
+3. **Social Features**: Share jobs on social media
 
 ## 👨‍💻 Author
 
@@ -316,4 +316,4 @@ Bobby Arianto - [GitHub](https://github.com/bobari93)
 
 ---
 
-Built with ❤️ using Next.js, Supabase, and Tailwind CSS
+Built with using Next.js, Supabase, and Tailwind CSS
