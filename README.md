@@ -85,8 +85,8 @@ Authenticated users can create job posts with:
 - Supabase account
 
 ### Quick Demo
-- **Live Demo**: <a href="https://mini-job-board-app-zeta.vercel.app" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app</a>
-- **Admin Access**: <a href="https://mini-job-board-app-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app/login</a>
+- **Live Demo**: [https://mini-job-board-app-zeta.vercel.app](https://mini-job-board-app-zeta.vercel.app)
+- **Admin Access**: [https://mini-job-board-app-zeta.vercel.app/login](https://mini-job-board-app-zeta.vercel.app/login)
 
 ### Installation
 
@@ -315,9 +315,9 @@ Bobby Arianto - [GitHub](https://github.com/bobari93)
 
 ## 🔗 Links
 
-- **Live Demo**: <a href="https://mini-job-board-app-zeta.vercel.app" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app</a>
-- **Admin Access**: <a href="https://mini-job-board-app-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app/login</a>
-- **GitHub Repository**: <a href="https://github.com/bobari93/mini-job-board-app" target="_blank" rel="noopener noreferrer">https://github.com/bobari93/mini-job-board-app</a>
+- **Live Demo**: [https://mini-job-board-app-zeta.vercel.app](https://mini-job-board-app-zeta.vercel.app)
+- **Admin Access**: [https://mini-job-board-app-zeta.vercel.app/login](https://mini-job-board-app-zeta.vercel.app/login)
+- **GitHub Repository**: [https://github.com/bobari93/mini-job-board-app](https://github.com/bobari93/mini-job-board-app)
 
 ---
 
