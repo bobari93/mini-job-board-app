@@ -32,8 +32,6 @@ Authenticated users can create job posts with:
 - **Comprehensive View**: Complete job details with full description
 - **Company Information**: Company details and location
 - **Job Metadata**: Posted date, job type badges, and time ago
-- **Application Options**: Apply via email and view company website
-- **Share Functionality**: Copy link and share job listings
 - **Responsive Design**: Mobile-friendly layout with sidebar
 
 #### 👤 User Dashboard
@@ -57,7 +55,6 @@ Authenticated users can create job posts with:
 - **Server-side Pagination**: Efficient data loading
 - **Optimized Queries**: Supabase client-side filtering
 - **Fast Loading**: Optimized for performance
-- **SEO Friendly**: Proper meta tags and structure
 
 ## 🛠️ Tech Stack
 
