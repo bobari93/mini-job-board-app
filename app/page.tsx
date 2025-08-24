@@ -24,7 +24,6 @@ export default function Home() {
   const [totalCount, setTotalCount] = useState(0);
 
   const jobTypes = ["Full-time", "Part-time", "Contract", "Internship", "Remote"];
-  const locations = ["Remote", "New York", "San Francisco", "London", "Toronto", "Other"];
 
   useEffect(() => {
     fetchJobs();
@@ -135,6 +134,15 @@ export default function Home() {
             </div>
           </div>
           <div>
+            <input
+              type="text"
+              placeholder="Filter by location..."
+              value={selectedLocation}
+              onChange={(e) => setSelectedLocation(e.target.value)}
+              className="w-full px-3 py-2 border border-input bg-background rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-ring"
+            />
+          </div>
+          <div>
             <select
               value={selectedJobType}
               onChange={(e) => setSelectedJobType(e.target.value)}
@@ -143,18 +151,6 @@ export default function Home() {
               <option value="">All Job Types</option>
               {jobTypes.map((type) => (
                 <option key={type} value={type}>{type}</option>
-              ))}
-            </select>
-          </div>
-          <div>
-            <select
-              value={selectedLocation}
-              onChange={(e) => setSelectedLocation(e.target.value)}
-              className="w-full px-3 py-2 border border-input bg-background rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-ring"
-            >
-              <option value="">All Locations</option>
-              {locations.map((location) => (
-                <option key={location} value={location}>{location}</option>
               ))}
             </select>
           </div>
