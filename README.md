@@ -2,10 +2,6 @@
 
 A full-stack job board application built with Next.js, Supabase, and Tailwind CSS. Users can post, browse, and manage job listings with authentication and real-time updates.
 
-## Live Deployed URL
-- Navigate to [https://mini-job-board-app-zeta.vercel.app](https://mini-job-board-app-zeta.vercel.app)
-- Navigate to [https://mini-job-board-app-zeta.vercel.app/login](https://mini-job-board-app-zeta.vercel.app/login) for admin access
-
 ## 🌟 Features
 
 ### Core Features
@@ -29,13 +25,16 @@ Authenticated users can create job posts with:
 - **Search**: Search by job title, company, description, or location
 - **Filtering**: Filter by job type and location
 - **Pagination**: Efficient pagination with customizable items per page
+- **Job Detail Links**: Click job titles to view full details in new tabs
 - **Responsive Design**: Mobile-friendly interface
 
 #### 📄 Job Detail Page
-- View complete job details
-- Company information
-- Job requirements and description
-- Posted date and job type badges
+- **Comprehensive View**: Complete job details with full description
+- **Company Information**: Company details and location
+- **Job Metadata**: Posted date, job type badges, and time ago
+- **Application Options**: Apply via email and view company website
+- **Share Functionality**: Copy link and share job listings
+- **Responsive Design**: Mobile-friendly layout with sidebar
 
 #### 👤 User Dashboard
 - **View Jobs**: See all jobs you've posted
@@ -52,6 +51,7 @@ Authenticated users can create job posts with:
 - **Modern UI**: Clean, professional interface using Tailwind CSS
 - **Loading States**: Smooth loading indicators
 - **Error Handling**: Graceful error states and user feedback
+- **Password Visibility**: Eye icons to toggle password visibility in forms
 
 #### ⚡ Performance
 - **Server-side Pagination**: Efficient data loading
@@ -83,6 +83,10 @@ Authenticated users can create job posts with:
 - Node.js 18+
 - npm or yarn
 - Supabase account
+
+### Quick Demo
+- **Live Demo**: <a href="https://mini-job-board-app-zeta.vercel.app" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app</a>
+- **Admin Access**: <a href="https://mini-job-board-app-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app/login</a>
 
 ### Installation
 
@@ -311,8 +315,9 @@ Bobby Arianto - [GitHub](https://github.com/bobari93)
 
 ## 🔗 Links
 
-- **Live Demo**: https://mini-job-board-app-zeta.vercel.app/
-- **GitHub Repository**: https://github.com/bobari93/mini-job-board-app
+- **Live Demo**: <a href="https://mini-job-board-app-zeta.vercel.app" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app</a>
+- **Admin Access**: <a href="https://mini-job-board-app-zeta.vercel.app/login" target="_blank" rel="noopener noreferrer">https://mini-job-board-app-zeta.vercel.app/login</a>
+- **GitHub Repository**: <a href="https://github.com/bobari93/mini-job-board-app" target="_blank" rel="noopener noreferrer">https://github.com/bobari93/mini-job-board-app</a>
 
 ---
 
